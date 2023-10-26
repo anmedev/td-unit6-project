@@ -6,7 +6,7 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "description": ""
+  "author": "Anelle Mensah",
+  "license": "MIT",
+  "description": "A portfolio of my projects for the Treehouse Techdegree."
 }
