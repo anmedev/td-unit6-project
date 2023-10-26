@@ -26,7 +26,7 @@
     },
     {"id": 3,
     "project_name": "OOP Game Show App",
-    "description": "This project is a 'guess-the-word' game where the user has to guess the correct phrase on the screen. Upon starting the game, the phrase is hidden and there is a keyboard on the screen that the user clicks to guess the correct letter in the phrase. The user is given 5 'lives' to guess the entire phrase -- if the user selects an correct letter, the letter is disabled on the keyboard and it displays in blue on the screen. If the user selects an incorrect letter, the letter is disabled on the keyboard and the letter turns yellow on the keyboard. The user also loses a 'life' for each incorrect guess. If the user wins the game, a 'YAY! YOU WON!' message will display on the screen with the option for the user to restart the game if they would like. If the user loses the game, a 'Sorry, better luck next time!' message will display on the screen with the option for the user to restart the game if they would like.",
+    "description": "This project is a 'guess-the-word' game where the user is given 5 'lives' to guess the correct phrase on the screen.",
     "technologies": ["HTML", "CSS", "JavaScript"],
     "live_link": "https://anmedev.github.io/td-unit4-project/",
     "github_link": "https://github.com/anmedev/td-unit4-project",
