@@ -6,7 +6,7 @@
     "technologies": ["HTML", "CSS", "JavaScript"],
     "live_link": "https://anmedev.github.io/td-unit1-project/",
     "github_link": "https://github.com/anmedev/td-unit1-project",
-    "image_urls": ["an array of strings containing file paths from the views folder to the images themselves. You'll need a main image to be shown on the landing page, and one to three images to be shown on the project page"]
+    "image_urls": ["images/project-1/landing-page.png", "images/project-1/additional-photo.png"]
     },
     {"id": 1,
     "project_name": "Data Pagination and Filtering",
@@ -14,7 +14,7 @@
     "technologies": ["HTML", "CSS", "JavaScript"],
     "live_link": "https://anmedev.github.io/td-unit2-project/",
     "github_link": "https://github.com/anmedev/td-unit2-project",
-    "image_urls": ["an array of strings containing file paths from the views folder to the images themselves. You'll need a main image to be shown on the landing page, and one to three images to be shown on the project page"]
+    "image_urls": ["images/project-2/landing-page.png", "images/project-2/additional-photo.png"]
     },
     {"id": 2,
     "project_name": "Interactive Form",
@@ -22,7 +22,7 @@
     "technologies": ["HTML", "CSS", "JavaScript"],
     "live_link": "https://anmedev.github.io/td-unit3-project/",
     "github_link": "https://github.com/anmedev/td-unit3-project",
-    "image_urls": ["an array of strings containing file paths from the views folder to the images themselves. You'll need a main image to be shown on the landing page, and one to three images to be shown on the project page"]
+    "image_urls": ["images/project-3/landing-page.png", "images/project-3/additional-photo.png"]
     },
     {"id": 3,
     "project_name": "OOP Game Show App",
@@ -30,7 +30,7 @@
     "technologies": ["HTML", "CSS", "JavaScript"],
     "live_link": "https://anmedev.github.io/td-unit4-project/",
     "github_link": "https://github.com/anmedev/td-unit4-project",
-    "image_urls": ["an array of strings containing file paths from the views folder to the images themselves. You'll need a main image to be shown on the landing page, and one to three images to be shown on the project page"]
+    "image_urls": ["images/project-4/landing-page.png", "images/project-4/additional-photo.png"]
     },
     {"id": 4,
     "project_name": "Public API Requests",
@@ -38,7 +38,7 @@
     "technologies": ["HTML", "CSS", "JavaScript"],
     "live_link": "https://anmedev.github.io/td-unit5-project/",
     "github_link": "https://github.com/anmedev/td-unit5-project",
-    "image_urls": ["an array of strings containing file paths from the views folder to the images themselves. You'll need a main image to be shown on the landing page, and one to three images to be shown on the project page"]
+    "image_urls": ["images/project-5/landing-page.png", "images/project-5/additional-photo.png"]
     }
   ]
 }
