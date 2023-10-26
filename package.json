@@ -8,5 +8,9 @@
   "keywords": [],
   "author": "Anelle Mensah",
   "license": "MIT",
-  "description": "A portfolio of my projects for the Treehouse Techdegree."
+  "description": "A portfolio of my projects for the Treehouse Techdegree.",
+  "dependencies": {
+    "express": "^4.18.2",
+    "pug": "^3.0.2"
+  }
 }
