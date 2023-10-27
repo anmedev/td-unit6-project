@@ -12,6 +12,8 @@ app.set("view engine", "pug");
 // Serves the static files in the public folder.
 app.use(express.static("public"));
 
+const mainRoutes = require("./routes");
+app.use(mainRoutes);
 // Turns on the Express server.
 app.listen(3000, () => {
   console.log("The application is running on localhost:3000!")
