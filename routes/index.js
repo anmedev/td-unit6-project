@@ -24,5 +24,3 @@ router.get("/project/:id", (req, res) => {
 
 // Imports the router.
 module.exports =  router;
-
-// TEST
