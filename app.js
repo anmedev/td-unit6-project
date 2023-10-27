@@ -22,7 +22,6 @@ app.use((req, res, next) => {
   err.status = 404;
   res.status(404);
   err.message = "Oh no! This page does not exist!"
-  console.log(`${err.status} : ${err.message}`);
   next(err);
 });
 
@@ -31,6 +30,7 @@ app.use((err, req, res, next) => {
   err.status = err.status || 500;
   err.message = err.message || "Internal Server Error";
   res.status(err.status);
+  res.send(err.message);
   console.log(`${err.status} : ${err.message}`);
 });
 
