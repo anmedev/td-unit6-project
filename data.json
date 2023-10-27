@@ -1,44 +1,44 @@
 {
   "projects": [
-    {"id": 0,
+    {"id": 1,
     "project_name": "A Random Quote Generator",
     "description": "This project is a random quote generator which displays a random quote on the page. The page automatically refreshes with a new quote ten second intervals or when the 'Show another quote' button is clicked. The page's background color automatically changes when the page is refreshed.",
     "technologies": ["HTML", "CSS", "JavaScript"],
     "live_link": "https://anmedev.github.io/td-unit1-project/",
     "github_link": "https://github.com/anmedev/td-unit1-project",
-    "image_urls": ["images/project-1/landing-page.png", "images/project-1/additional-photo.png"]
+    "image_urls": ["/static/images/project-1/landing-page.png", "/static/images/project-1/additional-photo.png"]
     },
-    {"id": 1,
+    {"id": 2,
     "project_name": "Data Pagination and Filtering",
     "description": "This project displays pages of student data for 42 students -- the student data includes their name, email, and photo.Each page displays cards of nine students each and there are pagination buttons on the bottom of each page that the user can click to display different pages of students.",
     "technologies": ["HTML", "CSS", "JavaScript"],
     "live_link": "https://anmedev.github.io/td-unit2-project/",
     "github_link": "https://github.com/anmedev/td-unit2-project",
-    "image_urls": ["images/project-2/landing-page.png", "images/project-2/additional-photo.png"]
+    "image_urls": ["/static/images/project-2/landing-page.png", "/static/images/project-2/additional-photo.png"]
     },
-    {"id": 2,
+    {"id": 3,
     "project_name": "Interactive Form",
     "description": "This project is an interactive form where a user can register for a full-stack tech conference. The user is able to input their personal information, select the activities they are interested in, and pay a registration fee. Should a user input their information incorrectly or miss a step in the registration process, visual validation errors will display on the form.",
     "technologies": ["HTML", "CSS", "JavaScript"],
     "live_link": "https://anmedev.github.io/td-unit3-project/",
     "github_link": "https://github.com/anmedev/td-unit3-project",
-    "image_urls": ["images/project-3/landing-page.png", "images/project-3/additional-photo.png"]
+    "image_urls": ["/static/images/project-3/landing-page.png", "/static/images/project-3/additional-photo.png"]
     },
-    {"id": 3,
+    {"id": 4,
     "project_name": "OOP Game Show App",
     "description": "This project is a 'guess-the-word' game where the user is given 5 'lives' to guess the correct phrase on the screen.",
     "technologies": ["HTML", "CSS", "JavaScript"],
     "live_link": "https://anmedev.github.io/td-unit4-project/",
     "github_link": "https://github.com/anmedev/td-unit4-project",
-    "image_urls": ["images/project-4/landing-page.png", "images/project-4/additional-photo.png"]
+    "image_urls": ["/static/images/project-4/landing-page.png", "/static/images/project-4/additional-photo.png"]
     },
-    {"id": 4,
+    {"id": 5,
     "project_name": "Public API Requests",
     "description": "This project uses the Random User Generator API (https://randomuser.me/) to grab information for 12 random 'employees', and uses that data to build a prototype for an employee directory. The project requests a JSON object from the API and parse the data so that 12 employees are listed in a grid with their thumbnail image, full name, email, and location. Clicking the employee’s image or name will open a modal window with more detailed information, such as the employee’s birthday and address.",
     "technologies": ["HTML", "CSS", "JavaScript"],
     "live_link": "https://anmedev.github.io/td-unit5-project/",
     "github_link": "https://github.com/anmedev/td-unit5-project",
-    "image_urls": ["images/project-5/landing-page.png", "images/project-5/additional-photo.png"]
+    "image_urls": ["/static/images/project-5/landing-page.png", "/static/images/project-5/additional-photo.png"]
     }
   ]
 }
