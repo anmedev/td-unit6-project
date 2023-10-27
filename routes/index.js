@@ -19,7 +19,12 @@ router.get("/about", (req, res) => {
 router.get("/project/:id", (req, res) => {
   const projectId = req.params.id;
   const project = projects.find(({ id }) => id === +projectId);
-  res.render("project", {project});
+  if (project) {
+    res.render("project", {project})
+  } else {
+    res.sendStatus(404);
+    console.log("This route does not exist!");
+  }
 });
 
 // Imports the router.

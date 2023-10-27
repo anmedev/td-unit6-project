@@ -21,11 +21,18 @@ app.use((req, res, next) => {
   const err = new Error();
   err.status = 404;
   res.status(404);
-  err.message = "Oh no! This page does not exist!"
+  err.message = "Oh no! This page does not exist!";
   next(err);
+  if (project) {
+    res.render("project", {projects});
+  } else {
+   
+  }
+  
 });
 
 /* Creates a global Error handler for all errors that are not 404 errors.*/
+
 app.use((err, req, res, next) => {
   err.status = err.status || 500;
   err.message = err.message || "Internal Server Error";
