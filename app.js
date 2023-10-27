@@ -20,22 +20,23 @@ app.use(mainRoutes);
 app.use((req, res, next) => {
   const err = new Error();
   err.status = 404;
+  res.status(404);
   err.message = "Oh no! This page does not exist!"
   console.log(`${err.status} : ${err.message}`);
   next(err);
 });
 
-// Creates a global Error handler.
-// app.use((err, req, res, next) => {
-//   const errorStatus = err.status || 500;
-//   const errorMsg = err.message || "Internal Sever Error"
-//   console.log(`${errorMsg} : ${errorMsg}`);
-// })
-
+/* Creates a global Error handler for all errors that are not 404 errors.*/
+app.use((err, req, res, next) => {
+  err.status = err.status || 500;
+  err.message = err.message || "Internal Server Error";
+  res.status(err.status);
+  console.log(`${err.status} : ${err.message}`);
+});
 
 // Turns on the Express server.
 app.listen(3000, () => {
-  console.log("The application is running on localhost:3000!")
+  console.log("The application is running on localhost:3000!");
 });
 
 module.exports = app;
