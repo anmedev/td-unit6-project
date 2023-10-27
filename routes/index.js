@@ -16,7 +16,7 @@ router.get("/about", (req, res) => {
 });
 
 // Creates the route for each project page.
-router.get("/projects/:id", (req, res) => {
+router.get("/project/:id", (req, res) => {
   const projectId = req.params.id;
   const project = projects.find(({ id }) => id === +projectId);
   res.render("project", {project});
