@@ -4,6 +4,7 @@ FSJS Project 6 - Static Node.js and Express Site
 
 // Imports Express.
 const express = require("express")
+// Creates an instance of the Express module.
 const app = express();
 
 // Creates middleware to serve the static files in the public folder.
