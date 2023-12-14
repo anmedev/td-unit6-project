@@ -6,7 +6,7 @@ FSJS Project 6 - Static Node.js and Express Site
 const express = require("express")
 const app = express();
 
-// Serves the static files in the public folder.
+// Creates middleware to serve the static files in the public folder.
 app.use("/static", express.static("public"));
 
 // Sets the Pug template as the template engine to use.
