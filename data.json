@@ -10,7 +10,7 @@
     },
     {"id": 2,
     "project_name": "Data Pagination and Filtering",
-    "description": "This project displays pages of student data for 42 students -- the student data includes their name, email, and photo.Each page displays cards of nine students each and there are pagination buttons on the bottom of each page that the user can click to display different pages of students.",
+    "description": "This project displays pages of student data for 42 students -- the student data includes their name, email, and photo. Each page displays cards of nine students each and there are pagination buttons on the bottom of each page that the user can click to display different pages of students.",
     "technologies": ["HTML", "CSS", "JavaScript"],
     "live_link": "https://anmedev.github.io/td-unit2-project/",
     "github_link": "https://github.com/anmedev/td-unit2-project",
