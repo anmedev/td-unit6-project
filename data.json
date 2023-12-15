@@ -39,6 +39,13 @@
     "live_link": "https://anmedev.github.io/td-unit5-project/",
     "github_link": "https://github.com/anmedev/td-unit5-project",
     "image_urls": ["/static/images/project-5/landing-page.png", "/static/images/project-5/additional-photo.png"]
+    },
+    {"id": 6,
+    "project_name": "React Gallery App",
+    "description": "This project uses React and the Flickr API to create and display images an image gallery app. This project also features a search bar where users can search for different topics and have their corresponding images display on the page.",
+    "technologies": ["HTML", "CSS", "JavaScript"],
+    "github_link": "https://github.com/anmedev/td-unit7-project",
+    "image_urls": ["/static/images/project-5/landing-page.png", "/static/images/project-5/additional-photo.png"]
     }
   ]
 }
