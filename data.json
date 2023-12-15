@@ -45,7 +45,28 @@
     "description": "This project uses React and the Flickr API to create and display images an image gallery app. This project also features a search bar where users can search for different topics and have their corresponding images display on the page.",
     "technologies": ["HTML", "CSS", "JavaScript"],
     "github_link": "https://github.com/anmedev/td-unit7-project",
-    "image_urls": ["/static/images/project-5/landing-page.png", "/static/images/project-5/additional-photo.png"]
+    "image_urls": ["/static/images/project-6/landing-page.png", "/static/images/project-6/additional-photo.png"]
+    },
+    {"id": 7,
+    "project_name": "SQL Library Manager",
+    "description": "This project uses SQLite and the SQL ORM -- along with HTML, CSS, and JavaScript -- to create a web application that will include pages to list, add, update, and delete books. This web application serves as a way for a 'local library' to dynamically update and manage its database.",
+    "technologies": ["HTML", "CSS", "JavaScript", "SQLite", "Sequelize"],
+    "github_link": "https://github.com/anmedev/td-unit8-project",
+    "image_urls": ["/static/images/project-7/landing-page.png", "/static/images/project-7/additional-photo.png"]
+    },
+    {"id": 8,
+    "project_name": "Rest API",
+    "description": "This project uses SQLite and the SQL ORM, Sequelize -- along JavaScript (Node.js and Express) -- to create a REST API that will provide a way to administer a school database containing information about users and courses. Users can interact with the database to create new courses, retrieve information on existing courses, and update or delete existing courses. To make changes to the database, users will be required to log in so the API will also allow users to create a new account or retrieve information on an existing account.",
+    "technologies": ["HTML", "CSS", "JavaScript", "SQLite", "Sequelize", "Postman (for testing)"],
+    "github_link": "https://github.com/anmedev/td-unit9-project",
+    "image_urls": ["/static/images/project-8/landing-page.png", "/static/images/project-8/additional-photo.png"]
+    },
+    {"id": 9,
+    "project_name": "Full Stack App with React and a REST API",
+    "description": "This project uses React to create a client for my existing school database REST API. The full stack application will provide a way for users to administer a school database containing information about courses: users can interact with the database by retrieving a list of courses, viewing detail for a specific course, as well as creating, updating, and deleting courses in the database. To make changes to the database, users will be required to create an account and sign in.",
+    "technologies": ["HTML", "CSS", "JavaScript"],
+    "github_link": "https://github.com/anmedev/td-unit10-project",
+    "image_urls": ["/static/images/project-9/landing-page.png", "/static/images/project-9/additional-photo.png"]
     }
   ]
 }
