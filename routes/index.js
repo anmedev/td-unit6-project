@@ -30,5 +30,5 @@ router.get("/project/:id", (req, res) => {
   }
 });
 
-// Imports the router.
+// Exports the router.
 module.exports =  router;
