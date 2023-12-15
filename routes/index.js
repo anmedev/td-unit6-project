@@ -7,7 +7,7 @@ const { projects } = require("../data.json");
 
 // Creates the route for the Home page.
 router.get("/", (req, res) => {
-  // Passes all project data to "index" template.
+  // Passes all project data to "index" view.
   res.render("index", {projects});
 });
 
@@ -22,7 +22,7 @@ router.get("/project/:id", (req, res) => {
   const projectId = req.params.id;
   const project = projects.find(({ id }) => id === +projectId);
   if (project) {
-    // Passes the project data to the "project" template.
+    // Passes the project data to the "project" view.
     res.render("project", {project})
   } else {
     res.sendStatus(404);
